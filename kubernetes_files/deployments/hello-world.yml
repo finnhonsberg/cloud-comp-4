@@ -17,5 +17,6 @@ spec:
       containers:
         - name: hello-world
           image: finncloudcomp/microservice:hello
+          imagePullPolicy: Always
           ports:
             - containerPort: 9001

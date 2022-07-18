@@ -17,5 +17,6 @@ spec:
       containers:
         - name: product-price
           image: finncloudcomp/microservice:productprice
+          imagePullPolicy: Always
           ports:
             - containerPort: 9003

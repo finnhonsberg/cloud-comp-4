@@ -17,5 +17,6 @@ spec:
       containers:
         - name: product-descp
           image: finncloudcomp/microservice:productdescp
+          imagePullPolicy: Always
           ports:
             - containerPort: 9002
